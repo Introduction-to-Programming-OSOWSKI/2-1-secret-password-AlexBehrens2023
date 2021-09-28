@@ -1,8 +1,8 @@
 #WRITE YOUR CODE IN THIS FILE
 def password(p):
-    if p.lower() == "knights19":
-        return "Accuss Granted"
+    if p == "Knights19":
+        return "ACCESS GRANTED"
     else:
-        return "Accuss Denied"
+        return "ACCESS DENIED"
 
 print(password("Knights19"))
